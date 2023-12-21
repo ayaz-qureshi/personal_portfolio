@@ -31,7 +31,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav style={{ zIndex: 10 }} className="bg-black w-full h-20 text-white fixed flex justify-between px-4 items-center">
+      <nav  className="bg-black w-full h-20 text-white fixed flex justify-between px-4 items-center">
         <h1 className="font-greatVibes text-5xl">Ayaz</h1>
         <div >
           <ul className="hidden md:flex">
