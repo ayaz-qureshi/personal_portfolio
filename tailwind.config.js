@@ -7,6 +7,9 @@ module.exports = {
     extend: {},
     fontFamily:{
       greatVibes: ['Great Vibes'],
+    },
+    colors:{
+      bg: '#161616',
     }
   },
   plugins: [],
