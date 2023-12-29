@@ -9,7 +9,7 @@ module.exports = {
       greatVibes: ['Great Vibes'],
     },
     colors:{
-      bg: '#161616',
+      bgGray: '#161616',
     }
   },
   plugins: [],
