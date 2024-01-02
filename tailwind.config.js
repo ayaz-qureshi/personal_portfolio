@@ -4,13 +4,17 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customBackground: '#161616',
+        lightGray: '#A3A3A3',
+      },
+    },
     fontFamily:{
       greatVibes: ['Great Vibes'],
     },
-    colors:{
-      bgGray: '#161616',
-    }
+    
+    
   },
   plugins: [],
 }

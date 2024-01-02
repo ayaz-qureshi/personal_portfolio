@@ -4,7 +4,7 @@ import Heri from '../assets/Heri.png';
 
 const Home = () => {
   return (
-    <div name="home"  className='bg-bgGray flex justify-center items-center min-h-screen pt-24'>
+    <div name="home"  className='bg-customBackground flex justify-center items-center min-h-screen pt-24'>
       <div className='flex flex-col md:flex-row w-2/3 items-center md:items-start'>
         <div className='flex items-start justify-start flex-col text-white '>
           <h2 className='text-5xl font-bold mb-7'>I'm a React.js Front End Developer.</h2>

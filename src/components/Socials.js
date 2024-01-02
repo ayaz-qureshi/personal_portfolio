@@ -54,7 +54,7 @@ const Socials = () => {
         {socialsIcon.map((social) => (
           <li
             key={social.id}
-            className="flex justify-between items-center w-40 px-4 h-14 ml-[-100px] hover:ml-[-10px] cursor-pointer  bg-gray-500 hover:rounded-md  duration-200"
+            className="flex justify-between items-center w-40 px-4 h-14 ml-[-100px] hover:ml-[-10px] cursor-pointer border border-lightGray hover:rounded-md  duration-200"
           >
             <a href={social.url} target="_blank" download={social.downoad} rel="noreferrer" className="flex items-center justify-between w-full text-white">
               {social.child} {/* Invoke the function to render the JSX */}

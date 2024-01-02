@@ -20,7 +20,7 @@ const Experience = () => {
     <div>
       <div
         name="experience"
-        className="bg-gradient-to-b to-black from-gray-800 text-white min-h-screen"
+        className="bg-customBackground text-white min-h-screen"
       >
         <div className="mx-4 md:mx-8 lg:mx-16 xl:mx-32">
           <div>

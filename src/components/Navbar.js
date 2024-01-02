@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import ayazLogo from "../assets/ayazLogo.svg"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -31,14 +32,15 @@ const Navbar = () => {
 
   return (
     <>
-      <nav  className="bg-black w-full h-20 text-white fixed flex justify-between px-4 items-center">
-        <h1 className="font-greatVibes text-5xl">Ayaz</h1>
+      <nav  className="bg-customBackground w-full h-20 text-white fixed flex justify-between px-24 items-center">
+        <img src={ayazLogo} alt="" className="h-8 w-auto "/>
+        {/* <h1 className="font-greatVibes text-5xl">Ayaz</h1> */}
         <div >
           <ul className="hidden md:flex">
             {links.map((link) => (
               <li
                 key={link.id}
-                className="text-gray-500 px-3 cursor-pointer hover:scale-105 duration-200 capitalize"
+                className="text-gray-500 font-inter text-base font-normal px-3 cursor-pointer hover:scale-105 duration-200 capitalize"
               >
                 <Link to={link.link} smooth duration={500}>{link.link}</Link>
               </li>
@@ -52,7 +54,7 @@ const Navbar = () => {
           </div>
           <div>
             {nav && (
-              <ul className="flex flex-col justify-center items-center absolute top-20 left-0  w-full h-screen bg-black  ">
+              <ul className="flex flex-col justify-center items-center absolute top-20 left-0  w-full h-screen bg-customBackground  ">
                 {links.map((link) => (
                   <li
                     key={link.id}
