@@ -32,15 +32,15 @@ const Navbar = () => {
 
   return (
     <>
-      <nav  className="bg-customBackground w-full h-20 text-white fixed flex justify-between px-24 items-center">
+      <nav  className="bg-customBackground w-full h-20 shadow-lg text-white fixed flex justify-between px-24 items-center">
         <img src={ayazLogo} alt="" className="h-8 w-auto "/>
         {/* <h1 className="font-greatVibes text-5xl">Ayaz</h1> */}
         <div >
-          <ul className="hidden md:flex">
+          <ul className="hidden md:flex ">
             {links.map((link) => (
               <li
                 key={link.id}
-                className="text-gray-500 font-inter text-base font-normal px-3 cursor-pointer hover:scale-105 duration-200 capitalize"
+                className="text-gray-500 font-inter text-base font-normal px-3 cursor-pointer hover:text-primaryColor duration-200 capitalize"
               >
                 <Link to={link.link} smooth duration={500}>{link.link}</Link>
               </li>
