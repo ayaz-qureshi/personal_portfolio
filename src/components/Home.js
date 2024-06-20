@@ -1,6 +1,5 @@
 import React from 'react';
 import { IoIosArrowForward } from 'react-icons/io';
-import Heri from '../assets/Heri.png';
 
 const Home = () => {
   return (
